@@ -1,0 +1,17 @@
+# Requirements
+Instapaper-cli requires [requests](https://github.com/kennethreitz/requests).
+
+Don't have requests? just run `pip install requests` or `pip install -r requirements.txt` to install it.
+
+# Setup
+1. Copy the config file;
+    cp config.py.sample config.py
+2. Edit *config.py*, set up your Instapaper account
+    instapaper_user = 'user'
+    instapaper_pass = 'pass'
+
+# Usage
+It's quite simple...
+    python instapaper.py https://github.com/shawjia/Instapaper-cli
+
+That's all.

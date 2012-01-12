@@ -1,0 +1,6 @@
+*.pyc
+config.py
+bin
+include
+lib
+local
