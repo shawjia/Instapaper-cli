@@ -5,8 +5,11 @@ Don't have requests? just run `pip install requests` or `pip install -r requirem
 
 # Setup
 1. Copy the config file;
+
     cp config.py.sample config.py
+
 2. Edit *config.py*, set up your Instapaper account
+
     instapaper_user = 'user'
     instapaper_pass = 'pass'
 
